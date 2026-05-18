@@ -1,0 +1,14 @@
+<h2>{{ 'home.next-urgent-incident' | translate }}</h2>
+@if (store.nextUrgentIncident(); as incident) {
+  <mat-card appearance="outlined">
+    <mat-card-header>
+      <mat-card-title>{{ incident.incidentType }}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p><strong>{{ 'incident.vehicle-id' | translate }}:</strong> {{ incident.vehicleId }}</p>
+      <p><strong>{{ 'incident.priority' | translate }}:</strong> {{ incident.priority }}</p>
+      <p><strong>{{ 'incident.cost' | translate }}:</strong> {{ incident.estimatedRepairCost }}</p>
+      <p><strong>{{ 'incident.registered-at' | translate }}:</strong> {{ incident.registeredAt | date:'short' }}</p>
+    </mat-card-content>
+  </mat-card>
+}

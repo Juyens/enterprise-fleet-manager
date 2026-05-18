@@ -1,0 +1,48 @@
+mat-toolbar {
+  background-color: #006B3F;
+  color: white;
+}
+
+.toolbar-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  width: 100%;
+}
+
+.brand {
+  justify-self: start;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.brand h1 {
+  font-size: 1.25rem;
+  margin: 0;
+  font-weight: 500;
+}
+
+.brand img {
+  background: white;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+.nav-center {
+  justify-self: center;
+  display: flex;
+  gap: 8px;
+}
+
+.nav-center a {
+  color: white;
+}
+
+.nav-center a.active {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.lang {
+  justify-self: end;
+}

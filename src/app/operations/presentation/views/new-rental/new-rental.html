@@ -1,0 +1,38 @@
+<section class="new-rental">
+  <h1>{{ 'new-rental.title' | translate }}</h1>
+  <h3>{{ 'new-rental.subtitle' | translate }}</h3>
+
+  <form [formGroup]="form" (ngSubmit)="submit()">
+    <mat-form-field>
+      <mat-label>{{ 'new-rental.vehicle' | translate }}</mat-label>
+      <mat-select formControlName="vehicleId" required>
+        @for (v of availableVehicles(); track v.id) {
+          <mat-option [value]="v.id">{{ v.make }} {{ v.model }} ({{ v.vehicleType }})</mat-option>
+        }
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>{{ 'new-rental.client-id' | translate }}</mat-label>
+      <input matInput type="number" formControlName="clientId" required>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>{{ 'new-rental.duration' | translate }}</mat-label>
+      <input matInput type="number" formControlName="durationDays" required min="1">
+    </mat-form-field>
+
+    @if (store.error()) {
+      <mat-error>{{ store.error() }}</mat-error>
+    }
+
+    <div class="actions">
+      <button mat-raised-button color="primary" type="submit" [disabled]="form.invalid">
+        {{ 'new-rental.create' | translate }}
+      </button>
+      <button mat-button type="button" (click)="cancel()">
+        {{ 'new-rental.cancel' | translate }}
+      </button>
+    </div>
+  </form>
+</section>

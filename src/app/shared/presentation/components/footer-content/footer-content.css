@@ -1,0 +1,14 @@
+.footer-content {
+  width: 100%;
+  background-color: #006B3F;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  box-sizing: border-box;
+  margin-top: auto;
+}
+
+.footer-content a {
+  color: white;
+  text-decoration: underline;
+}

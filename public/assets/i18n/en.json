@@ -1,0 +1,42 @@
+{
+  "option": {
+    "home": "Home",
+    "new-rental": "New Rental"
+  },
+  "home": {
+    "title": "Home",
+    "content": "Welcome to Enterprise Rent-A-Car",
+    "fleet-utilization": "Fleet Utilization Analytics",
+    "next-urgent-incident": "Next Urgent Incident"
+  },
+  "stats": {
+    "daily-revenue": "Daily Revenue Potential",
+    "incident-cost": "Estimated Incident Cost",
+    "vehicles-rented": "Vehicles Rented"
+  },
+  "incident": {
+    "vehicle-id": "Vehicle ID",
+    "priority": "Priority",
+    "cost": "Estimated Repair Cost",
+    "registered-at": "Registered At"
+  },
+  "new-rental": {
+    "title": "New Rental",
+    "subtitle": "Create a New Rental Contract",
+    "vehicle": "Vehicle",
+    "client-id": "Client ID",
+    "duration": "Duration (days)",
+    "create": "Create",
+    "cancel": "Cancel"
+  },
+  "page-not-found": {
+    "title": "Page not found",
+    "content": "The path <strong>{{ invalidPath }}</strong> is not valid.",
+    "go-home": "Go Home"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "powered-by": "Powered by",
+    "and": "and"
+  }
+}

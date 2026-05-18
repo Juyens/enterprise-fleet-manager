@@ -18,6 +18,6 @@ describe('App', () => {
     const fixture = TestBed.createComponent(App);
     await fixture.whenStable();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, ea11990u20241d992');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Enterprise Fleet Manager');
   });
 });

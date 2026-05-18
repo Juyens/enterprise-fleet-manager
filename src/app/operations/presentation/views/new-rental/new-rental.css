@@ -1,0 +1,43 @@
+:host {
+  display: block;
+}
+
+.new-rental {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.new-rental h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #006B3F;
+  margin: 0;
+}
+
+.new-rental h3 {
+  font-weight: 400;
+  color: #666;
+  margin: 4px 0 24px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+.error {
+  color: #d32f2f;
+  margin: 0;
+}

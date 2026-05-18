@@ -1,0 +1,42 @@
+{
+  "option": {
+    "home": "Inicio",
+    "new-rental": "Nuevo Alquiler"
+  },
+  "home": {
+    "title": "Inicio",
+    "content": "Bienvenido a Enterprise Rent-A-Car",
+    "fleet-utilization": "Análisis de Utilización de Flota",
+    "next-urgent-incident": "Próximo Incidente Urgente"
+  },
+  "stats": {
+    "daily-revenue": "Ingreso Diario Potencial",
+    "incident-cost": "Costo Estimado de Incidentes",
+    "vehicles-rented": "Vehículos Alquilados"
+  },
+  "incident": {
+    "vehicle-id": "ID del Vehículo",
+    "priority": "Prioridad",
+    "cost": "Costo Estimado de Reparación",
+    "registered-at": "Registrado el"
+  },
+  "new-rental": {
+    "title": "Nuevo Alquiler",
+    "subtitle": "Crear un Nuevo Contrato de Alquiler",
+    "vehicle": "Vehículo",
+    "client-id": "ID del Cliente",
+    "duration": "Duración (días)",
+    "create": "Crear",
+    "cancel": "Cancelar"
+  },
+  "page-not-found": {
+    "title": "Página no encontrada",
+    "content": "La ruta <strong>{{ invalidPath }}</strong> no es válida.",
+    "go-home": "Ir a Inicio"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "powered-by": "Desarrollado con",
+    "and": "y"
+  }
+}

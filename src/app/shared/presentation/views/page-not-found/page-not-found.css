@@ -1,0 +1,10 @@
+.page-not-found {
+  text-align: center;
+  padding: 64px 24px;
+}
+
+.page-not-found h1 {
+  font-size: 3rem;
+  color: #006B3F;
+  margin: 0 0 16px 0;
+}

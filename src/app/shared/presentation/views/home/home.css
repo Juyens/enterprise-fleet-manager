@@ -1,0 +1,31 @@
+:host {
+  display: block;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.home h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0;
+  color: #006B3F;
+}
+
+.home > p {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #006B3F;
+  margin: 0 0 16px 0;
+  border-bottom: 2px solid #006B3F;
+  padding-bottom: 8px;
+}

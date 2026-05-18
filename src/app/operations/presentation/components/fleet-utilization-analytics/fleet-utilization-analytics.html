@@ -1,0 +1,8 @@
+<h2>{{ 'home.fleet-utilization' | translate }}</h2>
+<mat-grid-list cols="3" rowHeight="300px" gutterSize="16px">
+  @for (s of store.fleetUtilization(); track s.vehicleType) {
+    <mat-grid-tile>
+      <app-vehicle-type-stats [stats]="s"/>
+    </mat-grid-tile>
+  }
+</mat-grid-list>
